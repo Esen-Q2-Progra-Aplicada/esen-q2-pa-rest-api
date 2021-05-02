@@ -4,7 +4,6 @@ from restapi import MtgRestApi
 
 def test_check_create_class():
     service = MtgRestApi()
-    print(service)
     assert service is not None
 
 
