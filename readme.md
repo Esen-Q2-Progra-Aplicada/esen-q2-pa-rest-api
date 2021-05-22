@@ -16,3 +16,12 @@ seguir las instrucciones proporcionadas en este pdf:
 - restapi .py
 - templates > index .html
 - static > style .css
+
+### Instrucciones sobre la clase
+
+- nombre de la clase debe ser `MtgRestApi`
+- la clase debe tener un metodo `getRestApiUrl()` y esta
+    debe regresar la url base mas el endpoint por ejemplo:
+    `"https://<restapi.base>/<restapi.endpoint>"`
+- la clase debe tener un metodo `getMtgCards()` que debe devolver
+`[]` si no hay cartas y si las hay debe devolver una lista llena.
